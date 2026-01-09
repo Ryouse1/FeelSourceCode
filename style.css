@@ -1,28 +1,42 @@
 body {
   background-color: #000;  /* 背景黒 */
-  color: #fff;             /* 文字白 */
-  font-family: Helvetica, Arial, sans-serif, "MS PGothic", "MS Gothic", Osaka; /* 日本語も英数字も対応 */
-  font-size: 14px;         /* 少し大きめ */
+  color: #fff;             /* 文字白（デフォルト） */
+  font-size: 14px;          /* 文字大きめ */
   line-height: 1.4;
   margin: 20px;
 }
 
-pre {
-  background-color: #000; 
+/* 英数字用 */
+.english {
+  font-family: Helvetica, Arial, sans-serif; /* 1999年英語ブラウザ風 */
   color: #fff;
-  font-family: "Courier New", Courier, monospace, "MS Gothic", Osaka; /* 英数字はモノスペース、日本語も表示 */
-  font-size: 14px;
-  white-space: pre;
-  overflow-x: auto;
 }
 
+/* 日本語用 */
+.japanese {
+  font-family: "MS PGothic", "MS Gothic", Osaka; /* 1999年日本語ブラウザ風 */
+  color: #fff;
+}
+
+/* コードブロック */
+pre {
+  background-color: #000;
+  color: #fff;
+  white-space: pre;
+  overflow-x: auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* コメント */
 .comment {
   color: #fff;
   margin-bottom: 5px;
 }
 
+/* GitHubリンク */
 .github-link a {
-  color: #00aaff;       /* リンクは水色っぽく */
+  color: #00aaff;
   text-decoration: underline;
 }
 
