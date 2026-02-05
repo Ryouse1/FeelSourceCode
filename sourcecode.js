@@ -13,7 +13,7 @@
   editor.contentEditable = "true";
   editor.spellcheck = false;
 
-  editor.style.fontWeight = "600"; // 500〜700で好み調整
+  editor.style.fontWeight = "200"; // 500〜700で好み調整
   editor.style.margin = "0";
   editor.style.padding = "16px";
   editor.style.width = "200vw";      // ← 横もフル
@@ -23,7 +23,7 @@
   editor.style.whiteSpace = "pre";
   editor.style.lineHeight = "1.5";
   editor.style.boxSizing = "border-box";
-  editor.style.fontSize = "20px";    // ← ソースビュー感（好みで調整）
+  editor.style.fontSize = "16px";    // ← ソースビュー感（好みで調整）
 
   // 初期テキスト
   editor.textContent =
