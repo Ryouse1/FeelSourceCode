@@ -1,8 +1,8 @@
 (() => {
   // ===== body 初期化 =====
   document.body.style.margin = "0";
-  document.body.style.width = "100vw";
-  document.body.style.height = "100vh";
+  document.body.style.width = "200vw";
+  document.body.style.height = "200vh";
   document.body.style.background = "#1e1e1e";
   document.body.style.overflow = "hidden";
   document.body.style.fontFamily =
